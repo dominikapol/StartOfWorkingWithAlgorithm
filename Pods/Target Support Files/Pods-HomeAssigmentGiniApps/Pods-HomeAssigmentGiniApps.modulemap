@@ -1,0 +1,6 @@
+framework module Pods_HomeAssigmentGiniApps {
+  umbrella header "Pods-HomeAssigmentGiniApps-umbrella.h"
+
+  export *
+  module * { export * }
+}

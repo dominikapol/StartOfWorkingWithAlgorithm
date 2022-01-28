@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58573DCD6C2828B7B89CD7EF /* Pods_HomeAssigmentGiniAppsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC90F417E3E4BD9C83001F3 /* Pods_HomeAssigmentGiniAppsTests.framework */; };
 		67440AD42795AEB30018C5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440AD32795AEB30018C5F1 /* AppDelegate.swift */; };
 		67440AD62795AEB30018C5F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440AD52795AEB30018C5F1 /* SceneDelegate.swift */; };
 		67440AD82795AEB30018C5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440AD72795AEB30018C5F1 /* ViewController.swift */; };
-		67440ADB2795AEB30018C5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67440AD92795AEB30018C5F1 /* Main.storyboard */; };
 		67440ADD2795AEB50018C5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67440ADC2795AEB50018C5F1 /* Assets.xcassets */; };
 		67440AE02795AEB50018C5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67440ADE2795AEB50018C5F1 /* LaunchScreen.storyboard */; };
 		67440AEB2795AEB50018C5F1 /* HomeAssigmentGiniAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440AEA2795AEB50018C5F1 /* HomeAssigmentGiniAppsTests.swift */; };
 		67440AF52795AEB50018C5F1 /* HomeAssigmentGiniAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440AF42795AEB50018C5F1 /* HomeAssigmentGiniAppsUITests.swift */; };
 		67440AF72795AEB50018C5F1 /* HomeAssigmentGiniAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440AF62795AEB50018C5F1 /* HomeAssigmentGiniAppsUITestsLaunchTests.swift */; };
+		67440B1F2795B3BD0018C5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67440B1E2795B3BD0018C5F1 /* Main.storyboard */; };
+		67440B212795B4A50018C5F1 /* ViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440B202795B4A50018C5F1 /* ViewControllerPresenter.swift */; };
+		67440B232795B92D0018C5F1 /* OrangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67440B222795B92D0018C5F1 /* OrangeCell.xib */; };
+		67440B252795B94B0018C5F1 /* OrangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440B242795B94B0018C5F1 /* OrangeCell.swift */; };
+		67440B2A2795B9730018C5F1 /* RedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67440B292795B9730018C5F1 /* RedCell.swift */; };
+		67440B2C2795B9800018C5F1 /* RedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67440B2B2795B9800018C5F1 /* RedCell.xib */; };
+		67F69BD327971A5C007E4F2F /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F69BD227971A5C007E4F2F /* Numbers.swift */; };
+		D4822D6C3D88C367C7FB3D3C /* Pods_HomeAssigmentGiniApps_HomeAssigmentGiniAppsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF94A7A44B040017A87DCF2 /* Pods_HomeAssigmentGiniApps_HomeAssigmentGiniAppsUITests.framework */; };
+		E2B21B400CAAC61E193F6AA9 /* Pods_HomeAssigmentGiniApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC689EBF399BDD3EA55B805D /* Pods_HomeAssigmentGiniApps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011D28BE8856FCBEC63B4876 /* Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.debug.xcconfig"; path = "Target Support Files/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		228070A52795C30B808817EA /* Pods-HomeAssigmentGiniApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAssigmentGiniApps.debug.xcconfig"; path = "Target Support Files/Pods-HomeAssigmentGiniApps/Pods-HomeAssigmentGiniApps.debug.xcconfig"; sourceTree = "<group>"; };
+		5B3FB8FF82B7D315860B5DF3 /* Pods-HomeAssigmentGiniApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAssigmentGiniApps.release.xcconfig"; path = "Target Support Files/Pods-HomeAssigmentGiniApps/Pods-HomeAssigmentGiniApps.release.xcconfig"; sourceTree = "<group>"; };
+		5BF94A7A44B040017A87DCF2 /* Pods_HomeAssigmentGiniApps_HomeAssigmentGiniAppsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeAssigmentGiniApps_HomeAssigmentGiniAppsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67440AD02795AEB30018C5F1 /* HomeAssigmentGiniApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeAssigmentGiniApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67440AD32795AEB30018C5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67440AD52795AEB30018C5F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		67440AD72795AEB30018C5F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67440ADA2795AEB30018C5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67440ADC2795AEB50018C5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67440ADF2795AEB50018C5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67440AE12795AEB50018C5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		67440AF02795AEB50018C5F1 /* HomeAssigmentGiniAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeAssigmentGiniAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67440AF42795AEB50018C5F1 /* HomeAssigmentGiniAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssigmentGiniAppsUITests.swift; sourceTree = "<group>"; };
 		67440AF62795AEB50018C5F1 /* HomeAssigmentGiniAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssigmentGiniAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67440B1E2795B3BD0018C5F1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		67440B202795B4A50018C5F1 /* ViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPresenter.swift; sourceTree = "<group>"; };
+		67440B222795B92D0018C5F1 /* OrangeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrangeCell.xib; sourceTree = "<group>"; };
+		67440B242795B94B0018C5F1 /* OrangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeCell.swift; sourceTree = "<group>"; };
+		67440B292795B9730018C5F1 /* RedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCell.swift; sourceTree = "<group>"; };
+		67440B2B2795B9800018C5F1 /* RedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedCell.xib; sourceTree = "<group>"; };
+		67F69BD227971A5C007E4F2F /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		6FF6648EDD12CF82D35EA9AC /* Pods-HomeAssigmentGiniAppsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAssigmentGiniAppsTests.debug.xcconfig"; path = "Target Support Files/Pods-HomeAssigmentGiniAppsTests/Pods-HomeAssigmentGiniAppsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C666E13F5C3ED40F77E60DF0 /* Pods-HomeAssigmentGiniAppsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAssigmentGiniAppsTests.release.xcconfig"; path = "Target Support Files/Pods-HomeAssigmentGiniAppsTests/Pods-HomeAssigmentGiniAppsTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC689EBF399BDD3EA55B805D /* Pods_HomeAssigmentGiniApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeAssigmentGiniApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC90F417E3E4BD9C83001F3 /* Pods_HomeAssigmentGiniAppsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeAssigmentGiniAppsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C526E2867CFFB8814FEAAE /* Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.release.xcconfig"; path = "Target Support Files/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B21B400CAAC61E193F6AA9 /* Pods_HomeAssigmentGiniApps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58573DCD6C2828B7B89CD7EF /* Pods_HomeAssigmentGiniAppsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4822D6C3D88C367C7FB3D3C /* Pods_HomeAssigmentGiniApps_HomeAssigmentGiniAppsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32898F9CB1CE1C7EB253227D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				228070A52795C30B808817EA /* Pods-HomeAssigmentGiniApps.debug.xcconfig */,
+				5B3FB8FF82B7D315860B5DF3 /* Pods-HomeAssigmentGiniApps.release.xcconfig */,
+				011D28BE8856FCBEC63B4876 /* Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.debug.xcconfig */,
+				E6C526E2867CFFB8814FEAAE /* Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.release.xcconfig */,
+				6FF6648EDD12CF82D35EA9AC /* Pods-HomeAssigmentGiniAppsTests.debug.xcconfig */,
+				C666E13F5C3ED40F77E60DF0 /* Pods-HomeAssigmentGiniAppsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		67440AC72795AEB30018C5F1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				67440AE92795AEB50018C5F1 /* HomeAssigmentGiniAppsTests */,
 				67440AF32795AEB50018C5F1 /* HomeAssigmentGiniAppsUITests */,
 				67440AD12795AEB30018C5F1 /* Products */,
+				32898F9CB1CE1C7EB253227D /* Pods */,
+				DCF57B8180E9789E7F8A555F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +142,13 @@
 			isa = PBXGroup;
 			children = (
 				67440AD32795AEB30018C5F1 /* AppDelegate.swift */,
-				67440AD52795AEB30018C5F1 /* SceneDelegate.swift */,
+				67F69BD227971A5C007E4F2F /* Numbers.swift */,
 				67440AD72795AEB30018C5F1 /* ViewController.swift */,
-				67440AD92795AEB30018C5F1 /* Main.storyboard */,
+				67440B202795B4A50018C5F1 /* ViewControllerPresenter.swift */,
+				67440B1E2795B3BD0018C5F1 /* Main.storyboard */,
+				67440B2E2795B9910018C5F1 /* Cells */,
 				67440ADC2795AEB50018C5F1 /* Assets.xcassets */,
+				67440AD52795AEB30018C5F1 /* SceneDelegate.swift */,
 				67440ADE2795AEB50018C5F1 /* LaunchScreen.storyboard */,
 				67440AE12795AEB50018C5F1 /* Info.plist */,
 			);
@@ -127,6 +172,43 @@
 			path = HomeAssigmentGiniAppsUITests;
 			sourceTree = "<group>";
 		};
+		67440B262795B94E0018C5F1 /* OrangeCell */ = {
+			isa = PBXGroup;
+			children = (
+				67440B222795B92D0018C5F1 /* OrangeCell.xib */,
+				67440B242795B94B0018C5F1 /* OrangeCell.swift */,
+			);
+			path = OrangeCell;
+			sourceTree = "<group>";
+		};
+		67440B2D2795B9830018C5F1 /* RedCell */ = {
+			isa = PBXGroup;
+			children = (
+				67440B2B2795B9800018C5F1 /* RedCell.xib */,
+				67440B292795B9730018C5F1 /* RedCell.swift */,
+			);
+			path = RedCell;
+			sourceTree = "<group>";
+		};
+		67440B2E2795B9910018C5F1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				67440B262795B94E0018C5F1 /* OrangeCell */,
+				67440B2D2795B9830018C5F1 /* RedCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DCF57B8180E9789E7F8A555F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC689EBF399BDD3EA55B805D /* Pods_HomeAssigmentGiniApps.framework */,
+				5BF94A7A44B040017A87DCF2 /* Pods_HomeAssigmentGiniApps_HomeAssigmentGiniAppsUITests.framework */,
+				CDC90F417E3E4BD9C83001F3 /* Pods_HomeAssigmentGiniAppsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67440AFA2795AEB50018C5F1 /* Build configuration list for PBXNativeTarget "HomeAssigmentGiniApps" */;
 			buildPhases = (
+				9A8DF8D2629E854C58DD6F49 /* [CP] Check Pods Manifest.lock */,
 				67440ACC2795AEB30018C5F1 /* Sources */,
 				67440ACD2795AEB30018C5F1 /* Frameworks */,
 				67440ACE2795AEB30018C5F1 /* Resources */,
+				62BA4C5B2BAF22F7F7DF98B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67440AFD2795AEB50018C5F1 /* Build configuration list for PBXNativeTarget "HomeAssigmentGiniAppsTests" */;
 			buildPhases = (
+				324680F765C109675A47F2B8 /* [CP] Check Pods Manifest.lock */,
 				67440AE22795AEB50018C5F1 /* Sources */,
 				67440AE32795AEB50018C5F1 /* Frameworks */,
 				67440AE42795AEB50018C5F1 /* Resources */,
@@ -169,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67440B002795AEB50018C5F1 /* Build configuration list for PBXNativeTarget "HomeAssigmentGiniAppsUITests" */;
 			buildPhases = (
+				A8ECA3503B070201FB90F8C9 /* [CP] Check Pods Manifest.lock */,
 				67440AEC2795AEB50018C5F1 /* Sources */,
 				67440AED2795AEB50018C5F1 /* Frameworks */,
 				67440AEE2795AEB50018C5F1 /* Resources */,
+				86197DDC1E5949C1772D475A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +318,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67440B1F2795B3BD0018C5F1 /* Main.storyboard in Resources */,
 				67440AE02795AEB50018C5F1 /* LaunchScreen.storyboard in Resources */,
 				67440ADD2795AEB50018C5F1 /* Assets.xcassets in Resources */,
-				67440ADB2795AEB30018C5F1 /* Main.storyboard in Resources */,
+				67440B232795B92D0018C5F1 /* OrangeCell.xib in Resources */,
+				67440B2C2795B9800018C5F1 /* RedCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +342,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		324680F765C109675A47F2B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeAssigmentGiniAppsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62BA4C5B2BAF22F7F7DF98B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeAssigmentGiniApps/Pods-HomeAssigmentGiniApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeAssigmentGiniApps/Pods-HomeAssigmentGiniApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeAssigmentGiniApps/Pods-HomeAssigmentGiniApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86197DDC1E5949C1772D475A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8DF8D2629E854C58DD6F49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeAssigmentGiniApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8ECA3503B070201FB90F8C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67440ACC2795AEB30018C5F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67440AD82795AEB30018C5F1 /* ViewController.swift in Sources */,
+				67440B252795B94B0018C5F1 /* OrangeCell.swift in Sources */,
+				67F69BD327971A5C007E4F2F /* Numbers.swift in Sources */,
 				67440AD42795AEB30018C5F1 /* AppDelegate.swift in Sources */,
 				67440AD62795AEB30018C5F1 /* SceneDelegate.swift in Sources */,
+				67440B212795B4A50018C5F1 /* ViewControllerPresenter.swift in Sources */,
+				67440B2A2795B9730018C5F1 /* RedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +493,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		67440AD92795AEB30018C5F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67440ADA2795AEB30018C5F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		67440ADE2795AEB50018C5F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +622,7 @@
 		};
 		67440AFB2795AEB50018C5F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228070A52795C30B808817EA /* Pods-HomeAssigmentGiniApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +650,7 @@
 		};
 		67440AFC2795AEB50018C5F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3FB8FF82B7D315860B5DF3 /* Pods-HomeAssigmentGiniApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +678,7 @@
 		};
 		67440AFE2795AEB50018C5F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF6648EDD12CF82D35EA9AC /* Pods-HomeAssigmentGiniAppsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +698,7 @@
 		};
 		67440AFF2795AEB50018C5F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C666E13F5C3ED40F77E60DF0 /* Pods-HomeAssigmentGiniAppsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +718,7 @@
 		};
 		67440B012795AEB50018C5F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011D28BE8856FCBEC63B4876 /* Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +736,7 @@
 		};
 		67440B022795AEB50018C5F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C526E2867CFFB8814FEAAE /* Pods-HomeAssigmentGiniApps-HomeAssigmentGiniAppsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
